@@ -1,3 +1,6 @@
+> **Experimental performance fork, based on upstream v2.1.9 (`08b7bc6`).**
+> Adds an opt-in [CUDA matrix-kernel tuner](tools/performance/README.md) with local hardware measurements. The EFI unlock implementation is unchanged. Some smaller GEMMs improved; large GEMMs did not show a convincing gain. This does **not** automatically accelerate ComfyUI, LLMs, training, or games. See [measured scope](docs/evidence/rtx4070-super-performance-confirmation/README.md).
+
 # nv-uefi-unlocker
 
 [中文](README.md) | [English](README.en.md)

@@ -26,3 +26,15 @@ payload_*
 
 # qemu disk image (test fixture, may contain firmware copies)
 /sim/qemu/usb.img
+
+# Local user-space performance builds and unredacted machine telemetry.
+/tools/performance/build/
+/tools/performance/results/
+/tools/performance/__pycache__/
+/docs/evidence/rtx4070-super-performance*/telemetry.csv
+/docs/evidence/rtx4070-super-performance*/run.json
+/docs/evidence/rtx4070-super-performance*/stderr.txt
+
+/docs/evidence/rtx4070-super-performance/
+/docs/evidence/rtx4070-super-performance-repeat/
+/docs/evidence/rtx4070-super-performance-confirmation-repeat/
